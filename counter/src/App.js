@@ -22,14 +22,16 @@ function App() {
       <p><a href={userData.html_url} target="blank">Profile</a></p>
     </div>
   )
-  return (
-    <div>
-      <h3>My Application</h3>
+  
+  
       const people = ['nick', 'omar', 'emily', 'anthony']
     const greetings = people.map((person, i ) => {
       return <Greeting key={i} name={person} />
     })
     return (
+      <div>
+        <h1>My Application</h1>
+        <Counter />
      <button onClick={fetchData}> Get Data</button>
      <button onClick={clear}>Clear Screen</button>
      {display}

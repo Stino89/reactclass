@@ -1,6 +1,6 @@
 function Greeting({name}) {
     return(
-         <h1>Hello, World! {name}</h1>
+         <h2>Hello, World! {name}</h2>
     )
 }
-export default Greeting;
+export default Greeting
